@@ -2,6 +2,7 @@ require("minitest/autorun")
 require("minitest/rg")
 require_relative("../Bus_service.rb")
 require_relative("../person.rb")
+require_relative("../bus_stop.rb")
 class BusServiceTest < MiniTest::Test
 
 def setup()
